@@ -7,30 +7,29 @@ else {
 	sprite_index = type;
 	switch (type) {
 	case 0:
-		sprite_index = spr_afternoon;
+		sprite_index = spr_tree;
 		break;
 	case 1:
-		sprite_index = spr_afternoon;
+		sprite_index = spr_sun;
 		break;
 	case 2:
-		sprite_index = spr_afternoon;
+		sprite_index = spr_river;
 		break;
-	case 0:
-		sprite_index = spr_afternoon;
+	case 3:
+		sprite_index = spr_rain;
 		break;
-	case 0:
-		sprite_index = spr_afternoon;
+	case 4:
+		sprite_index = spr_mountain;
 		break;
-	case 0:
-		sprite_index = spr_afternoon;
+	case 5:
+		sprite_index = spr_morning;
 		break;
-	case 0:
-		sprite_index = spr_afternoon;
+	case 6:
+		sprite_index = spr_moon;
 		break;
-	case 0:
-		sprite_index = spr_afternoon;
+	case 7:
+		sprite_index = spr_fire;
 		break;
-	
 		
 	}
 }
