@@ -6,9 +6,10 @@ if (visible && global.game_state == states.WAITING){
 	}
 	else{
 		global.player_picks[1] = self;
+		
 		global.game_state = states.PLAYING;
 	
-		alarm[0] = 120;
+		alarm[0] = 0.75 * room_speed;
 	}
 
 }

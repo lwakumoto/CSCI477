@@ -10,4 +10,10 @@ else{
 global.player_picks[0] = noone;
 global.player_picks[1] = noone;
 
-global.game_state = states.WAITING;
+
+if (!scr_all_card_paired(global.deck)){
+	global.game_state = states.WAITING;
+}
+else{
+	global.game_state = states.WIN;	
+}
